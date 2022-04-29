@@ -1,2 +1,2 @@
 # requirements.txt
-s3fs== 1.7.4
+s3fs== 2022.3.0
