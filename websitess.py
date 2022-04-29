@@ -13,7 +13,7 @@ def read_file(filename):
     with fs.open(filename) as f:
         return f.read().decode("utf-8")
 
-content = read_file("indexed-faces490/streamlitcsv/myfile.csv")
+content = read_file("indexed-faces490/myfile.csv")
 
 # Print results.
 for line in content.strip().split("\n"):
